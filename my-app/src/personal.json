@@ -4,7 +4,21 @@
             "id":  1,
             "firstName": "Matthew",
             "lastName": "Kelly",
-            "address":  "21 Vaughn's Gap Rd."
+            "occupation":  "Dude",
+             "address": {
+                "street": "21 Vaughn's Gap",
+                "city": "Nashville",
+                "state": "TN"
+            },
+            "car": {
+                "year": "1988",
+                "make": "Honda",
+                "model": "Accord"
+            },
+            "pet": {
+                "name": "Karma",
+                "breed": "Pit Bull"
+            }
         }
     ]
 }
