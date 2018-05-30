@@ -5,8 +5,8 @@ class Address extends Component {
         return (
             <div>
                 <p>{this.props.address.street}</p>
-                <p>{this.props.address.city}</p>
-                <p>{this.props.address.state}</p>
+                <p>{this.props.address.city} {this.props.address.state}</p>
+
             </div>
         )
     }

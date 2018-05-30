@@ -4,21 +4,35 @@
             "id":  1,
             "firstName": "Matthew",
             "lastName": "Kelly",
-            "occupation":  "Dude",
+            "occupation": "Dude",
              "address": {
                 "street": "21 Vaughn's Gap",
                 "city": "Nashville",
                 "state": "TN"
             },
             "car": {
+                "id": 1,
                 "year": "1988",
                 "make": "Honda",
                 "model": "Accord"
             },
             "pet": {
+                "id": 1,
                 "name": "Karma",
                 "breed": "Pit Bull"
             }
+        }
+    ],
+    "projectList": [
+        {
+            "id": 1,
+            "name": "Front End",
+            "description": "Putting front end of CRV back together correctly"
+        },
+        {
+            "id": 2,
+            "name": "Condo",
+            "description": "Renovate slowly"
         }
     ]
 }
